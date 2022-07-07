@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 5</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+		}
+		a {
+			text-decoration: none;
+		}
+		h2:hover {
+			color: rgb(0 246 231);
+		}
+		.container {
+			width: 1300px;
+			background-color: white;
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+			height: auto;
+			margin: 0 auto;
+			position: relative;
+			top: -10px;
+		}
+		.work:hover .work-overlay:before {
+		    background: rgba(0,0,0,.5);
+		    transition-duration: .3s;
+		    transition-property: all;
+		    transition-timing-function: cubic-bezier(.7,1,.7,1);
+		}
+		.navigasi {
+			background-color: black;
+			height: 100px;
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+		}
+		.navigasi-list li {
+			float: left;
+			list-style: none;
+			color: white;
+			padding: 3px 23px;
+			/*margin: 40px -250px 0px 250px;*/
+		}
+		.navigasi-header li:hover {
+			box-shadow: 0 0.5rem 1rem rgb(4 243 255 / 46%);
+		}
+		.navigasi-header {
+			float: left;
+		}
+		.navigasi-header li {
+			margin: 15px -250px 0px 250px;
+		}
+		.navigasi-list h1 {
+			font-size: 2.5rem;
+		}
+		.navigasi-list h2 {
+			float: left;
+		}
+		.navigasi-search img {
+			width: 18px;
+		}
+		.konten1 {
+			clear: both;
+			width: 200px;
+			height: 522px;
+			background-color: white;
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+			padding: 25px 35px;
+			list-style: none;
+			margin: 25px 50px 0px 25px;
+			font-family: arial;
+			float: left;
+			color: black;
+		}
+		.konten2 {
+			display: inline-block;
+			width: 930px;
+			height: auto;
+			margin: 35px 25px 0px 0px;
+		}
+		.konten2-item {
+			width: 20%;
+			float: left;
+			color: black;
+			padding: 15px 35px;
+			margin: 0px 0px 25px 25px;
+			background-color: white;
+			box-shadow: none;
+			text-align: center;
+		}
+		/*.konten2-item:hover {
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+			border: gray;
+		}*/
+		.konten2-item:hover {
+		    box-shadow: 0 0.5rem 1rem rgb(4 243 255 / 46%);
+		}
+		.konten2-gambar:hover {
+			background-image: none;
+		}
+		.konten2-gambar img {
+			width: 180px;
+			height: 180px;
+			border-radius: 97px;
+		}
+		.footer {
+			clear: both;
+			background-color: black;
+			height: 80px
+			top: -50px;
+		}
+		.footer-teks h3 {
+			color: white;
+			text-align: center;
+			padding: 25px;
+		}
+		.input {
+			list-style: none;
+			background-image: url(image/Search.png);
+			background-size: 22px;
+			background-repeat: no-repeat;
+			background-position: 10px;
+			background-clip: ;
+			float: right;
+			display: inline-block;
+			border: solid black;
+			border-image-repeat: none;
+			border-radius: 93px;
+			margin: 25px 25px 0px 0px;
+			padding: 12px 0px 10px 35px;
+			width: 149px;
+			height: 24px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigasi">
+			<div class="navigasi-list">
+				<li><h1 style="background-color: green; padding: 25px 5px;"></h1></li>
+				<li><h1 style="margin-left: -35px">KELOMPOK 1</h1></li>
+				<div class="navigasi-header"> 
+					<a href="Latihan4.html"><li><h2>Home</h2></li></a>
+					<a href="#"><li><h2>About Us</h2></li></a>
+					<a href="#"><li><h2>Contact</h2></li></a>
+					<a href="#"><li><h2>Help</h2></li></a>
+				</div>
+				<div class="cari">
+					<input type="text" class="input" name="" placeholder="Search">
+				</div>
+			</div>
+		</div>
+
+		<div class="konten1">
+			<div class="konten1-list">
+				<a href="#"><li><h2>Berita Hari Ini</h2></li></a>
+				<a href="#"><li><h2>Tentang</h2></li></a>
+				<a href="#"><li><h2>Download</h2></li></a>
+			</div>
+		</div>
+
+		<div class="konten2">
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+			<a href="#"><div class="konten2-item">
+				<div class="konten2-gambar">
+					<img src="image/bg.jpg">
+				</div>
+				<div class="konten2-teks">
+					<h3>NAMA</h3>
+				</div>
+			</div></a>
+		</div>
+
+		<div class="footer">
+			<div class="footer-teks">
+				<h3>@Muhammad Faris Nauval 2021</h3>
+			</div>
+		</div>
+	</div>
+
+	<style type="text/css">
+		
+	</style>
+		
+
+</body>
+</html>

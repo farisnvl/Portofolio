@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan HTML dan CSS</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+		}
+		.container {
+			width: 1311px;
+			margin: 11px;
+			padding: 5px;
+			background-color: white;
+    		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+		}
+		.navigasi {
+			background-color: blue;
+			height: 50px;
+		}
+		.navigasi-list li {
+			float: left;
+			padding: 15px 15px;
+			list-style: none;
+			color: white;
+		}
+		.content {
+			height: 355px;
+		}
+		.content-item {
+			width: 281px;
+			float: left;
+			padding: 5px 5px;
+			border: ridge;
+			margin: -3px 15px;
+		}
+		.content-item p {
+			font-weight: 600;
+		}
+		.content-item img {
+			width: 281px;
+			height: 155px;
+		}
+		.content-item h1 {
+			margin-top: 5px;
+		}
+		.footer p{
+			clear: left;
+			text-align: center;
+			padding: 15px;
+			font-family: mode beeb nol reguler;
+		}
+
+		@media (max-width: 1000px) {
+ 		.container {
+ 			margin-left: 4%;
+ 			margin-bottom: 5%;
+ 			width: 89%;
+ 		}
+ 		.content {
+ 			margin-left: 5%;
+ 		}
+ 		.content-item {
+ 			margin-bottom: 5%;
+ 		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Web Saya</h1>
+		<div class="navigasi">
+			<div class="navigasi-list">
+				<li>Beranda</li>
+				<li>Kontak Saya</li>
+				<li>Tentang Saya</li>
+			</div>
+		</div>
+		<hr>
+			<div class="content">
+				<div class="content-item">
+					<img src="image/penyu.png">
+					<h1>Penyu</h1>
+					<h4>Penyu adalah hewan yang banyak di temukan bertelur di beberapa pesisir pantai di Indonesia sejak dahulu.</h4>
+				</div>
+				<div class="content-item">
+					<img src="image/ikan.jpg">
+					<h1>Ikan Badut</h1>
+					<p>Ikan badut ini dapat dikenali dengan warna jinggannya ikan ini tumbuh mencapai 8 cm serta termasuk dalam ikan terpopuler didunia</p>
+				</div>
+				<div class="content-item">
+					<img src="image/ikan2.jpg">
+					<h1>Lion Fish</h1>
+					<p>Lionfish atau volitans adalah ikan berbisa milik keluarga yang Scorpaenidae terjemahan harfiah berarti ikan kalajengking.</p>
+				</div>
+				<div class="content-item">
+					<img src="image/ikan3.png">
+					<h1>Moorish Idol</h1>
+					<p>Ikan Moorish adalah salah satu ikan yang cukup populer di kalangan ara hobiis ikan hias karena bentuknya yang unik dan pola warnanya yang menarik</p>
+				</div>
+			</div>
+		<div class="footer">
+				<p>Copyright 2021 - Muhammad Faris Nauval</p>
+		</div>
+		<hr>
+	</div>
+</body>
+</html>

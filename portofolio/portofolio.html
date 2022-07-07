@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+	<title>Portofolio | Biodata</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+		}
+
+		a {
+			text-decoration: none; 
+		}
+
+		.container {
+			width: 1300px;
+			height: 950px;
+			background-color: white;
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+			margin: 20px auto;
+			padding: 5px;
+		}
+
+		.navigasi {
+			background-color: black;
+			padding: 5px;
+			text-align: center;
+			color: white;
+			box-shadow: 0 0.5rem 1rem (0 0 0 / 15%);
+		}
+
+		#activ {
+			background-color: darkgray;
+			color: black;
+			border: 2px solid darkgray;
+			transition-duration: 0.7s;
+		}
+		#activ:hover {
+			border: 2px solid black;
+			background-color: gray;
+			color: white;
+			transition-duration: 0.7s;
+		}
+
+		.sidebar {
+			width: 500px;
+			height: 845px;
+			background-color: gray;
+			float: left;
+		}
+
+			.sidebar-foto img {
+				width: 400px;
+				height: 360px;
+				padding: 10px;
+				margin-left: 37px;
+			}
+
+			.sidebar-menu {
+				margin: 5px;
+				list-style: none;
+			}
+
+			.sidebar-menu h2 {
+				background-color: black;
+				padding: 25px;
+				color: white;
+				border: 2px solid black;
+				transition-duration: 0.7s;
+			}
+			.sidebar-menu h2:hover {
+				background-color: darkgray;
+				border: 2px solid gray;
+				color: black;
+				transition-duration: 0.7s;
+			}
+
+			.sidebar-menu li {
+				margin-top: -15px
+			}
+
+		.content {
+			overflow: hidden;
+			height: 850px;
+			width: 792px;
+			display: inline-block;
+		}
+
+			#judul {
+				text-align: center;
+			}
+
+			.content-item {
+				background-color: white;
+				width: 336px;
+				float: left;
+				box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+				padding: 10px;
+				margin: 10px 0px 30px 30px;
+				transition-duration: 0.7s;
+			}
+			.content-item:hover {
+				box-shadow: none;
+				transition-duration: 0.7s;
+			}
+
+				.porto img {
+					width: 310px;
+					height: 200px;
+					margin: 10px;
+				}
+
+				.porto h2 {
+					text-align: center;
+				}
+		@media (max-width: 1000px) {
+				.container {
+					margin-left: 4%;
+					margin-bottom: 5%;
+					width: 89%;
+					height: auto;
+				}
+				.sidebar {
+					width: 856px;
+					height: auto;
+				}
+				.sidebar-foto img {
+					float: left;
+					width: 470px;
+					height: 428px;
+					display: inline-block;
+				}
+				.sidebar-menu {
+					float: right;
+					margin: -14px 0px 5px 0px;
+				}
+				.content {
+					margin-left: 3%;
+					clear: both;
+				}
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigasi">
+			<h1>BIODATA</h1>
+		</div>
+
+		<div class="sidebar">
+			<div class="sidebar-foto">
+				<img src="image/muka.jpg">
+			</div><br>
+
+			<div class="sidebar-menu">
+				<a href="index.html"><li><h2>Profil</h2></li></a>
+				<a href="portofolio.html"><li><h2  id="activ">Portofolio</h2></li></a>
+				<a href="sosmed.html"><li><h2>Media Sosial</h2></li></a>
+				<a href="Magang.html"><li><h2>Pengalaman Magang</h2></li></a>
+				<a href="Foto.html"><li><h2>Foto</h2></li></a>
+			</div>
+		</div>
+
+		<div class="content">
+			<h1 id="judul">PORTOFOLIO</h1>
+			<a href="latihan6.html" target="_blank"><div class="content-item" style="height: 302px;">
+				<div class="porto">
+					<img src="image/lat1.png">
+					<h2>Portofolio 1</h2>
+				</div>
+			</div></a>
+			<a href="https://latihanfaris.netlify.app/" target="_blank"><div class="content-item" style="height: 302px;">
+				<div class="porto">
+					<img src="image/lat2.png">
+					<h2>Portofolio 2</h2>
+				</div>
+			</div></a>
+			<a href="https://foodzonemvl.000webhostapp.com/login.php" target="_blank"><div class="content-item" style="height: 302px;">
+				<div class="porto">
+					<img src="image/lat3.png">
+					<h2>Portofolio 3</h2>
+				</div>
+			</div></a>
+			<a href="latihan5.html" target="_blank"><div class="content-item" style="height: 302px;">
+				<div class="porto">
+					<img src="image/lat4.png">
+					<h2>Portofolio 4</h2>
+				</div>
+			</div></a>
+		</div>
+	</div>
+</body>
+</html>

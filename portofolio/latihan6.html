@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan Faris</title>
+	<style type="text/css">
+			body {
+		font-family: arial;
+	}
+	#wrapper {
+		width: 1250px;
+		height: auto;
+		background-color: white;
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+		margin: auto;
+		padding: 60px 20px;
+		overflow: hidden;
+	}
+
+	#header {
+		width: 1250px;
+		height: auto;
+		background-color: black;
+		color: white;
+		padding: 15px 0px;
+	}
+
+	.header-list img {
+		width: 115px;
+	}
+
+	.header-list ul {
+		float: right;
+		background-color: gray;
+		margin: 10px 0px 0px 0px;
+		padding: 20px;
+		width: 70px;
+		transition-duration: 0.7s;
+		color: white;
+		border: 0.5px solid black; 
+		text-align: center;
+		list-style: none;
+		font-weight: bold;
+	}
+	.header-list ul:hover {
+		background-color: black;
+		border: 0.5px solid gray;
+		transition-duration: 0.7s
+	}
+
+	#activ {
+		color: black;
+		border: 1px solid gray;
+	}
+		#activ:hover {
+			color: white;
+		}
+
+
+	#slideshow {
+		background-image: url(image/lepi.jpg);
+		background-size: 1300px;
+		margin-top: 50px;
+		padding: 25px;		
+		/*filter: brightness(70%);*/
+	}
+	.slide-teks h1 {
+		margin-bottom: 2px;
+		margin-top: 400px;
+		color: white;
+	}
+
+	#langkah {
+		width: 1200px;
+		height: 400px;
+		background-color: black;
+		margin-top: 50px;
+		padding: 25px;
+		clear: both;
+	}
+
+	.content-judul h2 {
+		color: white;
+	}
+
+	.content-item {
+		width: 340px;
+		height: 240px;
+		padding: 20px;
+		border: solid white;
+		background-color: white;
+		float: left;
+		transition-duration: 0.7s;
+		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+		margin: 25px 0px 0px 10px;
+		color: black;
+	}
+
+	.content-item:hover {
+		background-color: gray;
+		border: solid gray;
+		transition-duration: 0.7s;
+		color: white;
+	}
+
+	.footer {
+		background-color: black;
+		width: 1250px;
+		height: 60px;
+		padding: 15px 0px;
+		margin-top: 50px;
+		clear: both;
+		font-weight: bold;
+	}
+
+	.footer-list p {
+		float: left;
+		color: white;
+	}
+
+	.footer-menu {
+		background-color: gray;
+		margin-left: 50px;
+		height: 50px;
+		width: 430px;
+		padding: 5px;
+		text-align: center;
+		display: inline-block;
+	}
+	.footer-menu ul {
+		float: left;
+		text-decoration: none;
+		color: white;
+		padding: 5px;
+		margin: 10px 35px 0px 10px;
+	}
+	.footer-menu ul:hover {
+		background-color: black;
+		padding: 15px;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div class="header-list">
+				<img src="image/front.png">
+				<a href="#"><ul>Contact</ul></a>
+				<a href="#"><ul>Blog</ul></a>
+				<a href="#"><ul>Portofolio</ul></a>
+				<a href="#"><ul id="activ">Home</ul></a>				
+			</div>
+		</div>
+
+		<div id="slideshow">
+			<div class="slide-teks">
+				<h1>Belajar HTML & CSS:<br>
+					Tutorial Fundamental <br>
+					Mempelajari HTML & CSS</h1>
+			</div>
+		</div>
+
+		<div id="langkah">
+			<div class="content-judul">
+				<h2>Bagaimana cara menjadi seorang webdesigner</h2>
+			</div>
+			<a href="#"><div class="content-item">
+				<h3>Belajar HTML</h3>
+				<P>Pelajari terlebih dahulu apa itu HTML, bagaimana cara pembuatan file HTML, Tag - tag HTML yang ada beserta fungsinya.</P>
+			</div></a>
+			<a href="#"><div class="content-item">
+				<h3>Belajar CSS</h3>
+				<P>Pelajari apa itu CSS, hubungan antara CSS dengan HTML, bagaimana cara penggunaan CSS untuk mengatur layout HTML.</P>
+			</div></a>
+			<a href="#"><div class="content-item">
+				<h3>Buat Website</h3>
+				<P>Setelah mempelajari HTML & CSS saatnya untuk menerapkan keduanya dalam kasus konversi design web menjadi file HTML & CSS.</P>
+			</div></a>
+		</div>
+
+		<div class="footer">
+			<div class="footer-list">
+				<p>&copy;copyright 2021 - Muhammad Faris Nauval XII - RPL</p>
+				<div class="footer-menu">
+					<a href="#"><ul>Teks1</ul></a>
+					<a href="#"><ul>Teks2</ul></a>
+					<a href="#"><ul>Teks3</ul></a>
+					<a href="#"><ul>Teks4</ul></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

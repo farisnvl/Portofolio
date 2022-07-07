@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+	<title>Profil | Biodata</title>
+	<style type="text/css">
+		body {
+			font-family: arial;
+		}
+
+		a {
+			text-decoration: none; 
+		}
+
+		.container {
+			width: 1300px;
+			height: 950px;
+			background-color: white;
+			box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+			margin: 20px auto;
+			padding: 5px;
+		}
+
+		.navigasi {
+			background-color: black;
+			padding: 5px;
+			text-align: center;
+			color: white;
+			box-shadow: 0 0.5rem 1rem (0 0 0 / 15%);
+		}
+
+		#activ {
+			background-color: darkgray;
+			color: black;
+			border: 2px solid darkgray;
+			transition-duration: 0.7s;
+		}
+		#activ:hover {
+			border: 2px solid black;
+			background-color: gray;
+			color: white;
+			transition-duration: 0.7s;
+		}
+
+		.sidebar {
+			width: 500px;
+			height: 845px;
+			background-color: gray;
+			float: left;
+		}
+
+			.sidebar-foto img {
+				width: 400px;
+				height: 360px;
+				padding: 10px;
+				margin-left: 37px;
+			}
+
+			.sidebar-menu {
+				margin: 5px;
+				list-style: none;
+			}
+
+			.sidebar-menu h2 {
+				background-color: black;
+				padding: 25px;
+				color: white;
+				border: 2px solid black;
+				transition-duration: 0.7s;
+			}
+			.sidebar-menu h2:hover {
+				background-color: darkgray;
+				border: 2px solid gray;
+				color: black;
+				transition-duration: 0.7s;
+			}
+
+			.sidebar-menu li {
+				margin-top: -15px
+			}
+
+		.content {
+			overflow: hidden;
+			height: 850px;
+			width: 792px;
+			display: inline-block;
+		}
+
+			#judul {
+				text-align: center;
+			}
+
+			.content-item {
+				background-color: white;
+				width: 740px;
+				box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+				padding: 10px;
+				margin: 10px 20px;
+			}
+
+			.content-item h1 {
+				background-color: black;
+				color: white;
+				width: 300px;
+				border-bottom-right-radius:  90px; 
+				padding: 10px;
+			}
+
+				.sekolah {
+					width: 190px;
+					height: 180px;
+					background-color: white;
+					box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+					float: left;
+					margin-left: 45px;
+					transition-duration: 0.7s;
+				}
+				.sekolah:hover {
+					box-shadow: none;
+					transition-duration: 0.7s;
+				}
+
+				.sekolah img {
+					width: 100px;
+					margin: 3% 24%;
+				}
+
+				.sekolah h4 {
+					text-align: center;
+				}
+
+		@media (max-width: 1000px) {
+				.container {
+					margin-left: 4%;
+					margin-bottom: 5%;
+					width: 89%;
+					height: auto;
+				}
+				.sidebar {
+					width: 856px;
+					height: auto;
+				}
+				.sidebar-foto img {
+					float: left;
+					width: 470px;
+					height: 428px;
+					display: inline-block;
+				}
+				.sidebar-menu {
+					float: right;
+					margin: -14px 0px 5px 0px;
+				}
+				.content {
+					margin-left: 3%;
+					clear: both;
+				}
+			}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigasi">
+			<h1>BIODATA</h1>
+		</div>
+
+		<div class="sidebar">
+			<div class="sidebar-foto">
+				<img src="image/muka.jpg">
+			</div><br>
+
+			<div class="sidebar-menu">
+				<li><a href="index.html"><h2 id="activ">Profil</h2></li></a>
+				<a href="portofolio.html"><li><h2>Portofolio</h2></li></a>
+				<a href="sosmed.html"><li><h2>Media Sosial</h2></li></a>
+				<a href="Magang.html"><li><h2>Pengalaman Magang</h2></li></a>
+				<a href="Foto.html"><li><h2>Foto</h2></li></a>
+			</div>
+		</div>
+
+		<div class="content">
+			<h1 id="judul">PROFIL</h1>
+			<div class="content-item">
+				<h1>Tentang saya</h1>
+				<p>Haii, perkenalkan nama saya Muhammad Faris Nauval atau sering dipanggil juga Faris, saya berasal 
+					dari Duren Sawit, Kota Jakarta Timur. Saat ini, saya sedang menjadi siswa di SMK Negeri 71 Jakarta
+					dengan mengambil jurusan Rekayasa Perangkat Lunak atau (RPL). Saya pernah mengikuti program PKL (Praktik Kerja Lapangan) di Dana Pensiun Bank Indonesia dan ditempatkan di bagian IT sebagai Front End Developer pada tahun 2021. Dalam menyelesaikan program PKL, saya mengerjakan sebuah sistem Helpdesk dan saya juga mengerjakan sebuah Laporan Kegiatan Praktek Kerja Lapangan (PKL) sebagai syarat untuk dapat mengikuti Ujian Akhir Sekolah dan Uji Kompetensi Keahlian  (UKK).</p>
+			</div>
+			<div class="content-item">
+				<h1 style="width: 220px">Data diri</h1>
+					<p>Jakarta, 02 Maret 2004 | Muslim | Belum Menikah | 176cm | 55kg</p>
+			</div>
+			<div class="content-item" style="height: 300px;">
+				<h1 style="">Pendidikan</h1>
+				<div class="sekolah">
+					<img src="image/askir.jpg">
+					<h4>SDIT Asy-Syaakiriin</h4>
+				</div>
+				<div class="sekolah">
+					<img src="image/mts42.jpg">
+					<h4>MTs Negeri 42</h4>
+				</div>
+				<div class="sekolah">
+					<img src="image/smk71.jpg" style="height: 118px;">
+					<h4>SMK Negeri 71</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
